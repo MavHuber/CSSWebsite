@@ -1,0 +1,134 @@
+.wow {
+  width: 100px;
+}
+
+body {
+  background-color: white;
+}
+
+#mynavbar {
+  background-color: #e4e4e4;
+  color: black;
+}
+
+nav a {
+  display: block;
+}
+
+nav a: hover {
+  color: #014631;
+}
+
+.carousel, .carousel img {
+  height: 600px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  background-color: #014631;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+h2 {
+  color: #014631;
+  text-align: center;
+}
+
+h3 {
+  text-shadow: 2px 2px 5px black;
+}
+
+h5 {
+  text-align: center;
+  
+}
+
+.col-md-4 {
+  text-align: center;
+}
+
+.image {
+  width: 99%;
+}
+
+.overlay-container {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #014631;
+}
+
+#gold-overlay {
+  background-color: #eda62c;
+}
+
+.overlay-container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+a, a:hover {
+  text-decoration:none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+#mission {
+  background-color: #014631;
+  color: white;
+  text-align: center;
+  margins: auto;
+  padding: 5px;
+}
+
+footer {
+  background-color: #e4e4e4;
+  padding: 2%;
+}
+
+#logo {
+  padding: 2%;
+}
+
+.col-md-8 {
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+}
+
+.col-md-6 {
+  margin: auto;
+  padding: 5%;
+  text-align: center;
+}
+
+.google {
+  text-align: center;
+}
